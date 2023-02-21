@@ -1,0 +1,89 @@
+.major-main{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 5px;
+}
+.major-main .one{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+}
+.major-main .one .icon1{
+    font-size: 60px;
+    color: #2a3c90;
+}
+.major-main .two{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+}
+.major-main .two .icon2{
+    font-size: 200px;
+    color: #2a3c90;
+}
+
+.major-main .three{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+}
+.major-main .three .icon3{
+    font-size: 100px;
+    color: #2a3c90;
+}
+
+.major-main .h1-p h1{
+    color: gray;
+    font-size: 50px;
+
+
+}
+.major-main .h1-p p{
+    color: #2a3c90;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: -40px;
+
+}
+@media(max-width:768px)
+{
+    .major-main .h1-p h1{font-size: 20px;
+    margin-bottom: 1px;}
+    .major-main .h1-p p{font-size: 20px;
+    margin-top: 0;}
+    .major-main .one{
+        
+        width: 90%;
+    }
+    .major-main .two{
+        
+        width: 90%;
+    }
+    .major-main .three{
+        
+        width: 90%;
+    }
+    .major-main .one p{
+        font-size: 14px;
+    }
+    .major-main .two p{
+        font-size: 14px;
+    }
+    .major-main .three p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,137 @@
+.belowGoverment{
+    width: 100%;
+    height: fit-content;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 40px;
+    justify-content: center; 
+     align-items: center;
+}
+.belowGoverment .h1-container{
+    width: 90%;
+    text-align: center;
+    height: fit-content;
+}
+.belowGoverment .three-div{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.belowGoverment .three-div .card-container{
+    /* background-color: red; */
+    width: 400px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.belowGoverment .three-div .card-container .card-inside-main{
+    border-radius: 20px;
+    border: 3px solid #2bace2;
+    width: 90%;
+    height: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+}
+.belowGoverment .three-div .card-container .card-inside-main::after{
+    content: "";
+    background-color: white;
+    width:20px;
+    height: 65px;
+    position: absolute;
+    z-index: 2;
+    margin-top:43px;
+    margin-left:-13px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
+.belowGoverment .three-div .card-container .card-inside-main::before{
+    content: "";
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    z-index: 1;
+    margin-top:40px;
+    margin-left:-35px;
+    border: 2;
+    border: 3px solid #2bace2;
+    border-radius: 50%;
+}
+.belowGoverment .three-div .card-container .card-inside-main .out-line-hide{
+    position: absolute;
+    width: 40px;
+    height: 90px;
+    background-color:white;
+    z-index: 10;
+    margin-top: 30px;
+    margin-left:-43px;
+}
+.belowGoverment .three-div .card-container .card-inside-main .circle{
+    position: absolute;
+    z-index: 30;
+    background-color:green;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-left: -31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.belowGoverment .three-div .card-container .card-inside-main .circle .icon{
+    color: white;
+    font-size: 33px;
+}
+@media(max-width:768px){
+    .belowGoverment .three-div .card-container .card-inside-main .text-container{
+     
+        margin-left: 100px;
+        
+    }
+    .belowGoverment .three-div .card-container .card-inside-main .text-container p{
+        font-size: 12px;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .belowGoverment .three-div .card-container .card-inside-main .text-container{
+        margin-left:80px;
+    }
+}
+
+
+.belowGoverment .three-div .card-container .card-inside-main .text-container p{
+    font-weight: bold;
+}
+
+.belowGoverment .three-div .card-container .card-inside-main .text-container{
+    position: absolute;
+   
+    width:26%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+
+}
+/* animation.......................................................................................... */
+/* .belowGoverment .three-div .card-container{
+    transition: transform 0.3s ease-in-out;
+}
+.belowGoverment .three-div .card-container:hover{
+    transform: translateY(-20px);
+}   */
+
+/* animation............................................................................................. */

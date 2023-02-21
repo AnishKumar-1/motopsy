@@ -1,0 +1,61 @@
+
+.mobile-hamburger{
+    display: none;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .mobile-hamburger {
+      display: block;
+    }
+  }
+
+
+
+
+  .containerStyle{
+    position:"relative";
+    width:"100%";
+  }
+  
+  .menuStyle{
+    background-color:rgb(20, 94, 158);
+    list-style:none;
+    position:absolute;
+    top:50px;
+    /* left: 0; */
+    right: 0;
+    z-index:1;
+    width:100%;
+  }
+  .listItemStyle{
+    color: white;
+    padding:10px;
+    cursor: pointer;
+    padding-left: 25px;
+    border-bottom:1px solid lightgray;
+  }
+
+
+
+  .hamburger{
+    margin-left:30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top:5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

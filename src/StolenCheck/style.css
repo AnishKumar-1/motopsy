@@ -1,0 +1,314 @@
+.totalLoss-main{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(185, 242, 244);
+    margin-bottom: 50px;
+    padding: 40px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+
+.totalLoss-main .top-text{
+width: 70%;
+height:60px;
+border: 3px solid #2bace2;
+border-radius: 25px;
+padding-left: 2px;
+padding-right: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.totalLoss-main .top-text p{
+    font-size: 38px;
+    font-weight: 900;
+    color: #2a3c90;
+}
+
+.totalLoss-main .sub-text{
+width: 90%;
+height: fit-content;
+border: 3px solid #2bace2;
+border-radius: 25px;
+display: flex;
+gap: 50px;
+flex-wrap: wrap;
+padding: 10px;
+
+}
+.totalLoss-main .sub-text .one{
+    /* background-color: red; */
+    height: 170px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+
+    /* background-color: red; */
+}
+.totalLoss-main .sub-text .one .icon{
+    font-size: 150px;
+}
+.totalLoss-main .sub-text .third .icon2{
+    font-size: 70px;
+    color: #2bace2;
+}
+.totalLoss-main .sub-text .first {
+    width: 15%;
+  
+}
+.totalLoss-main .sub-text .second {
+    width: 35%;
+ 
+}
+.totalLoss-main .sub-text .second h1{
+ 
+    font-weight: 900
+}
+
+.totalLoss-main .sub-text .third {
+    width: 10%;
+}
+/* with circle code start ...................................................................*/
+.totalLoss-main .sub-text .four {
+   
+    width: 27%;
+}
+
+.totalLoss-main .sub-text .four .right{
+    width: 90%;
+    height:90%;
+    border-radius: 10px;
+    border: 3px solid #2bace2;
+    /* background-color: black; */
+    text-align: center;
+}
+.totalLoss-main .sub-text .four .right::before{
+    content: "";
+    width: 80px;
+    height:80px;
+    border:3px solid #2bace2;
+    border-radius:50%;
+    position: absolute;
+    z-index: 1;
+    margin-left:-192px;
+    margin-top: 35px;
+    /* background-color: yellow; */
+    /* background-color: red; */
+}
+.totalLoss-main .sub-text .four .right::after{
+    content: "";
+    width: 10px;
+    height:79px;
+    position: absolute;
+  
+    margin-left:-158px;
+    margin-top: 38px;
+    z-index: 20;
+    /* background-color: black; */
+    background-color: rgb(185, 242, 244);
+
+
+}
+.totalLoss-main .sub-text .four .hide-circle{
+    position: absolute;
+    z-index: 20;
+    width: 40px;
+    height: 90px;
+
+    background-color: rgb(185, 242, 244);
+    margin-left:-347px;
+    margin-top: 5px;
+    /* background-color: yellow; */
+
+}
+.totalLoss-main .sub-text .four .main-circle{
+    position: absolute;
+    z-index: 300;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: -300px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.totalLoss-main .sub-text .four .main-circle .mark-icon{
+    color: white;
+    font-size: 40px;
+}
+.totalLoss-main .sub-text .four .text-content{
+    position: absolute;
+    z-index:2;
+    /* background-color: red; */
+    width: 250px;
+    /* width: fit-content; */
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-left:50px;
+    /* background-color: red; */
+}
+.totalLoss-main .sub-text .four .text-content p{
+    padding-right: 5px;
+    font-weight: 900;
+    font-size: 18px;
+}
+/* .totalLoss-main .sub-text .four .hide-circle .hide-circle_icon{
+    position: absolute;
+    z-index: 40;
+    width: 100px;
+    height: 100px;
+   background-color: red;
+   border-radius: 50%;
+} */
+/* with circle code end...................................................................*/
+
+
+/* media query start.................................. */
+@media(max-width:765px)
+{   .totalLoss-main .top-text{
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+}
+    .totalLoss-main .top-text p{
+        font-size: 11px;
+    }
+    .totalLoss-main .sub-text .one{
+        width: 100%;
+    }
+    .totalLoss-main .sub-text .four .right{
+        width: 60%;
+    }
+    .totalLoss-main .sub-text .four .text-content{
+        width: 150px;
+    }
+    .totalLoss-main .sub-text .four .text-content p{
+        font-size: 14px;
+    }
+    .totalLoss-main .sub-text .four .right::after{
+        /* margin-left:-158px; */
+        margin-left:-108px;
+    }
+    .totalLoss-main .sub-text .four .hide-circle{
+        /* margin-left:-347px; */
+        margin-left:-270px;
+    }
+    .totalLoss-main .sub-text .four .main-circle{
+        margin-left: -200px;
+    }
+    .totalLoss-main .sub-text .four .right::before{
+        margin-left: -142px;
+    }
+    .totalLoss-main .sub-text{
+        border: none;
+    }
+}
+
+
+@media(max-width:400px){
+    .totalLoss-main .sub-text .four .hide-circle{
+        margin-left:-251px;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:1024px)
+{   .totalLoss-main .top-text{
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+}
+    .totalLoss-main .top-text p{
+        font-size: 20px;
+    }
+    .totalLoss-main .sub-text .one{
+        width: 100%;
+    }
+    .totalLoss-main .sub-text .four .right{
+        width: 90%;
+    }
+    .totalLoss-main .sub-text{
+        border: none;
+    }
+
+    .totalLoss-main .sub-text .four .text-content{
+        width: 400px;
+    }
+    .totalLoss-main .sub-text .four .text-content p{
+        font-size: 14px;
+    }
+  
+    
+    .totalLoss-main .sub-text .four .right::after{
+        /* margin-left:-158px; */
+        margin-left:-318px;
+        display: none;
+    }
+    .totalLoss-main .sub-text .four .hide-circle{
+        /* margin-left:-347px; */
+        margin-left:-670px;
+    }
+    .totalLoss-main .sub-text .four .main-circle{
+        margin-left: -660px;
+        display: none;
+    }
+    .totalLoss-main .sub-text .four .right::before{
+        margin-left: -372px;
+        display: none;
+    }
+}
+@media(min-width:769px) and (max-width:1024px)
+{
+    .totalLoss-main .sub-text .four .right::after{
+       display: none;
+        margin-left:-336px;
+    }
+    .totalLoss-main .sub-text .four .hide-circle{
+        display: none;
+        margin-left:-718px;
+    }
+    .totalLoss-main .sub-text .four .main-circle{
+        margin-left: -660px;
+        display: none;
+    }
+    .totalLoss-main .sub-text .four .right::before{
+        margin-left: -372px;
+        display: none;
+    }
+}
+/* media query end................................... */
+.totalLoss-main .stolen-last-data{
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.totalLoss-main .stolen-last-data p:first-of-type{
+    font-size: 20px;   
+}
+.totalLoss-main .stolen-last-data p:nth-of-type(2) {
+    font-size:16px;
+    color: gray;
+}
+
+.totalLoss-main .sub-text .first img{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    height: 150px;
+    width: 150px;
+
+}
